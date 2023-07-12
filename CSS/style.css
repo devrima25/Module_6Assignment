@@ -1,0 +1,410 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* ------googleFontsLink ---- CSS------ */
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+    /* ------start_nav_style------- */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+    height: 100px;
+    
+  }
+  
+  nav ul {
+    display: flex;
+    align-items: center;
+  }
+  
+  nav ul li {
+    list-style: none;
+    margin-right: 50px;
+  }
+  
+  nav ul li a {
+    /* text-decoration: none; */
+  }
+
+  nav ul li a{
+    color: green;
+  }
+  nav ul li a:hover{
+    color: #d107c0;
+  }
+
+  .nav_title {
+    color: #181818;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-size: 35px;
+    font-weight: 800;
+    line-height: normal;
+  }
+  
+  nav span{
+    color: #E55473;
+  }
+   /* ------End_nav_style------- */
+
+
+/* --------start-header-section--CSS--------- */
+
+.header_banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(229, 84, 115, 0.10);
+
+}
+.header_bannar_img img{
+    height: auto;
+    width: 400px;
+    
+}
+
+.header_bannar_inner h2 {
+    font-size: 34px;
+    line-height: 34px;
+    margin-bottom: 13px;
+}
+.header_bannar_inner p {
+    font-size: 17px;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+
+button {
+    border: none;
+    background: #E55473;
+    padding: 14px;
+    color: white;
+    border-radius: 8px;
+   
+   
+}
+
+
+/* --------End-header-section--CSS---------- */
+
+
+/* start-Featured-section -CSS*/
+.All_flowers{
+    padding:100px 200px;
+
+}
+
+.flower_content h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    text-align: center;
+    
+}
+
+.flower_content p {
+    line-height: 22px;
+    margin-bottom: 10px;
+    text-align: center;
+   
+}
+
+.flower-mainDiv {
+    display: flex;
+    justify-content: center;
+    margin-top: 79px;
+    gap: 30px;
+}
+    
+.lili-flower {
+    height: 300px;
+    width: 250px;
+    text-align: center;
+    background-color: #f2dee7;
+    border-radius: 121px 121px   0px 0px;
+   
+}  
+   
+    
+
+.lili-flower img {
+    height: 242px;
+    margin-top: 58px;
+   
+    
+}
+.inner-div h4 {
+    font-size: 12px;
+    border-bottom: 2px solid;
+    width: 100px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.pink_flower{
+    height: 300px;
+    width: 250px;
+    text-align: center;
+    background: rgba(5, 151, 160, 0.15);
+    border-radius: 121px 121px   0px 0px;
+    
+}
+    
+    
+
+.pink_flower img{
+    height: 242px;
+    margin-top: 58px;
+    
+   
+}
+.yello_flower{
+    height: 300px;
+    width: 250px;
+    text-align: center;
+    background: rgba(71, 125, 17, 0.15);
+    border-radius: 121px 121px   0px 0px;
+   
+}
+    
+    
+    
+    
+.yello_flower img{
+    height: 242px;
+    margin-top: 58px;
+   
+
+}
+
+/* End-Featured-section-CSS */
+
+
+
+/* start-services-section-CSS */
+
+.main_service {
+    display: flex;
+    justify-content: space-around;
+    width: 850px;
+    margin: auto;
+    padding: 80px 0px;
+    border-radius: 5px;
+    margin-bottom: 59px;
+    background-color: #2727270D;
+    
+   
+}
+    
+   
+
+section.services {
+    padding: 40px 149px;
+}
+
+.service_item small {
+    position: relative;
+    top: 18px;
+    font-size: 9px;
+}
+.service_item img{
+    width: 40px;
+    margin-left: 80px;
+
+}
+.service_item small {
+    position: relative;
+    top: 25px;
+    left: -120px;
+    font-size: 7px;
+}
+.ser-tile{
+    display: flex;
+    padding: 0px 200px;
+}
+/* End-services-section-CSS */
+
+
+/* start_Hot-Deal_section-CSS */
+.Hot_Deal{
+    padding: 100px 200px;
+    background-color: #E554730D;
+   
+
+}
+.main_deal {
+    display: flex;
+    align-items: center;
+    gap: 51px;
+}
+
+.deal-con h3 {
+    font-size: 35px;
+    margin-bottom: 16px;
+}
+.deal-con p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.deal-con span{
+    color: #E55473;
+}
+
+.deal_btn {
+    text-align: center;
+    margin-left: 189px;
+    padding: 13px 23px;
+    border: none;
+    text-transform: capitalize;
+    background: #E55473;
+    border-radius: 5px;
+}
+
+/* .deal-img{
+    height: 415px;
+    weight:150px;
+} */
+
+/* End_Hot-Deal_section-CSS */
+
+
+/* start-Instagram-section-CSS */
+.Instagram {
+    text-align: center;
+    padding: 57px;
+}
+.Instagram h4{
+    font-size: 35px;
+    margin-bottom: 12px;
+}
+.Instagram p {
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.Instagram-main{
+    display: flex;
+    gap: 35px;
+
+}
+.Instagram-box{
+    height: 318px;
+    width: 259px;
+    
+
+}
+.Instagram-box img {
+    height: 318px;
+    width: 259px;
+    
+}
+/* End-Instagram-section-CSS */
+
+
+
+/* start-Latest Deals-section-CSS */
+.Latest_Deal{
+    padding: 100px 200px;
+
+}
+.Latest_Deal-main{
+    background-image: url('../Flower Asset/Rectangle 9.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.Latest_Deal-inner h4 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.Latest_Deal h5 {
+    font-size: 15px;
+    margin-bottom: 21px;
+}
+
+.Deal-btn {
+    padding: 14px;
+    border: none;
+    border-radius: 6px;
+    width: 50%;
+}
+/* End-Latest Deals-section-CSS */
+
+/* slider----css start */
+.slider{
+    height: 300px;
+    margin: auto;
+    margin-bottom: 50px;
+    position: relative;
+    width: 90%;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+}
+
+.slide-track{
+    display: flex;
+    width: calc(250px * 18);
+    animation: scroll 40s linear infinite;
+}
+
+.slide-track:hover{
+    animation-play-state: paused;
+}
+.slide{
+    height: 200px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    perspective: 100px;
+}
+
+img{
+    width: 100%;
+    transition: transform 2s;
+}
+
+img:hover{
+    transform: translateZ(20px);
+}
+/* slider----css end */
+
+
+/* start-footer-section-CSS*/
+footer{
+    color: white;
+    background-color: rgb(7, 7, 7);
+    text-align: center;
+    padding: 100px;
+   
+    
+    
+    
+}
+footer h4 {
+    font-size: 33px;
+    margin-bottom: 20px;
+}
+footer h5 {
+    color: #d8cbcb;
+    font-size: 12px;
+    margin-bottom: 30px;
+    line-height: 20px;
+}
+
+footer span{
+    color: #E55473;
+}
+
+footer h6{
+    color: #424141;
+    margin-top:40px;
+    margin-bottom: 20px;
+
+}
+/* End-footer-section-CSS */
